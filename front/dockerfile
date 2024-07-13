@@ -1,0 +1,6 @@
+FROM node:22-alpine
+USER node
+ENV NODE_ENV=development
+WORKDIR /usr/src/app/report
+#RUN npx create-react-app ReportText
+CMD ["npm", "start"]
